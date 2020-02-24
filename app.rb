@@ -70,3 +70,4 @@ forecast = ForecastIO.forecast("#{@lat}", "#{@long}").to_hash
 
  view "news"
 end
+
