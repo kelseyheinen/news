@@ -10,7 +10,7 @@ before { puts "Parameters: #{params}" }
 ForecastIO.api_key = "7fc61e89b4b650fd369947c35d74fa91"
 
 #news API
-url = "https://newsapi.org/v2/top-headlines?country=us&apiKey=72062d412df44b118b2b3128033cf057"
+url = "https://newsapi.org/v2/top-headlines?country=us&apiKey=63beb3cbacc941639993b9b9fbbcd3ee"
 news = HTTParty.get(url).parsed_response.to_hash
 
 # show a view that asks for the location
